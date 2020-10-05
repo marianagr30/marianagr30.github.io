@@ -5,16 +5,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Hello Bulma!</title>
 		<link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		
 		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
         <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 		<style>
+			/*en el head se mete el enlace a bulma, para que este haga su funcionamiento, lo que se hacía con boots*/
 
 .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+/* aquí son cambios de estilo*/
 
 .emoticon { white-space: pre; }
 
@@ -28,11 +31,13 @@
 				<div class="container">
 					<figure class="image center">
 						<img src="images/descarga.png" style="max-width: 160px;">
+						<!--se coloca la imagen que va por encima de los cards-->
 					</figure>
 				</div>
 			</div>
 		</section>
 		<!-- /.hero -->
+         
 
 		<!-- .section -->
 		<section class="section has-background-light">
@@ -47,6 +52,8 @@
 							</p>
 						</div>
 					</div>
+					<!--en esta parte se realiza el primer card, colocando así en <p> lo que lleva dentro de la misma
+						al igual que el componente que debe llevar para que este funcione. -->
 					<div class="column">
 						<div class="notification is-primary">
 							<h1 class="title is-size-4">…Flexbox?</h1>
@@ -56,6 +63,7 @@
 							</p>
 						</div>
 					</div>
+					<!--se coloca el segundo card con lo mismo que el primero-->
 					<div class="column">
 						<div class="notification is-warning">
 							<h1 class="title is-size-4">…Classes?</h1>
@@ -67,7 +75,9 @@
 					</div>
 				</div>
 			</div>
+			<!--se coloca el ultimo card-->
 		</section>
+		<!--finaliza la sección-->
 		<!-- /.section -->
 
 	</body>
